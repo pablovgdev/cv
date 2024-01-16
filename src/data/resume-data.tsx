@@ -17,7 +17,12 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {
+  GitHubIcon,
+  LinkedInIcon,
+  UpworkIcon,
+  XIcon,
+} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Pablo Verdugo",
@@ -47,6 +52,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://x.com/pablovgdev",
         icon: XIcon,
+      },
+      {
+        name: "Upwork",
+        url: "https://www.upwork.com/freelancers/~01716bb0728e8474ae",
+        icon: UpworkIcon,
       },
     ],
   },
