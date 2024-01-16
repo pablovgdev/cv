@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Software Engineer focused on building products with extra attention to detail",
   summary: `As a Software Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. I have over ${new Date().getFullYear() - 2018} years of experience working remotely with companies all around the world.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/16836732?v=4",
-  personalWebsiteUrl: "https://www.pablovg.dev",
+  personalWebsiteUrl: "https://www.upwork.com/freelancers/~01716bb0728e8474ae",
   contact: {
     email: "pablovgdev@gmail.com",
     // tel: "+48530213401",
@@ -60,8 +60,18 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Contractor",
+      link: "https://www.upwork.com/freelancers/~01716bb0728e8474ae",
+      badges: ["Remote"],
+      title: "Freelance Software Engineer",
+      start: "2023",
+      end: "now",
+      description:
+        "Creating scalable products and automations for clients. Technologies: NodeJS, TypeScript, Golang, AWS",
+    },
+    {
       company: "Swapcard",
-      link: "https://www.swapcard.com/",
+      link: "https://www.swapcard.com",
       badges: ["Remote"],
       title: "Teamlead → Senior Software Engineer",
       start: "2021",
